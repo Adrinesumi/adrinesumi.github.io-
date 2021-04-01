@@ -13,7 +13,8 @@
 
  <!-- Bootstrap CSS File -->
  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+<link href="css/newstyles.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
  <!-- Libraries CSS Files -->
  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
  <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -23,8 +24,7 @@
 
  <!-- Main Stylesheet File -->
  <link href="css/style.css" rel="stylesheet">
- <link href="css/newstyles.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
  <!-- =======================================================
  Theme Name: DevFolio
  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
@@ -121,13 +121,13 @@
  </div>
  <div class="article-content">
  <p>
- 
- The most terrible thing humans face is the ignorance about life, knowing not to live and to face life’s circumstances, which drowns many to the state of inferiority.  
+ The most terrible thing humans face is the ignorance about life, knowing not to live and to face life’s circumstances, which drowns many to the state of inferiority. 
  </p>
  <p>
-  Everyone should live an ambitious life with a get-set-ready mind to achieve what they have aimed. Goal setting is a science to be learned in life systematically.Anil Thomas aims to set forth a proper methodology for Goal setting through ‘Kick- Off’ to succour lives to get on the right track.
+ Everyone should live an ambitious life with a get-set-ready mind to achieve what they have aimed. Goal setting is a science to be learned in life systematically.
+ Anil Thomas aims to set forth a proper methodology for Goal setting through ‘Kick- Off’ to succour lives to get on the right track.
  </p>
-  <!-- <p>
+ <!-- <p>
  Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur
  adipiscing elit. Praesent
  sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet,
@@ -236,6 +236,7 @@
                         id="inputName"
                         name="name"
                         placeholder="Name *"
+                        required
                       />
                     </div>
                   </div>
@@ -247,6 +248,7 @@
                         id="inputEmail1"
                         name="email"
                         placeholder="Email *"
+                        required
                       />
                     </div>
                   </div>
@@ -257,7 +259,8 @@
                         id="inputUrl"
                         placeholder="Subject"
                         name="subject"
-                        value="Want to Enrol for Iwesome"
+                        required
+                        value="Want to Enrol for Kick-Off"
                       />
                     </div>
                   </div>
@@ -270,12 +273,13 @@
                         name="message"
                         cols="45"
                         rows="8"
+                        required
                       ></textarea>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <button
-                     
+                    
                       type="submit"
                       class="button button-a button-big button-rouded"
                     >
@@ -284,93 +288,108 @@
                   </div>
                 </div>
               </form>
-            </div>
-          </div> -->
-            <div class="widget-sidebar">
-              <h5 class="sidebar-title">Other Courses</h5>
-              <div class="sidebar-content">
-                <ul class="list-sidebar">
-                  <li>
-                    <a href="service1-focusfixing.html">Focus Fixing</a>
-                  </li>
-                  <li>
-                    <a href="service2-emotionalsetback.html"
-                      >Emotional Setback</a
-                    >
-                  </li>
-                  <li>
-                    <a href="service3-goalsetting.html">Goal Setting </a>
-                  </li>
-                  <li>
-                    <a href="service4-innovate.html">Innovate</a>
-                  </li>
-                  <li>
-                    <a href="service5-socialskill.html">Social Skills</a>
-                  </li>
-                  <li>
-                    <a href="service6-untie.html">Untie</a>
-                  </li>
-                  <li>
-                    <a href="services7-behavioural_economics.html"
-                      >Behavioural Economics</a
-                    >
-                  </li>
-                  <li>
-                    <a href="service8-10xceostraining.html"
-                      >10X CEO'S TRAINING</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="widget-sidebar">
-              <h5 class="sidebar-title">Archives</h5>
-              <div class="sidebar-content">
-                <ul class="list-sidebar">
-                  <li>
-                    <a href="#">September, 2017.</a>
-                  </li>
-                  <li>
-                    <a href="#">April, 2017.</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                  <li>
-                    <a href="#">Atque placeat maiores nam quo autem</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- <div class="widget-sidebar widget-tags">
-            <h5 class="sidebar-title">Tags</h5>
-            <div class="sidebar-content">
-              <ul>
-                <li>
-                  <a href="#">Web.</a>
-                </li>
-                <li>
-                  <a href="#">Design.</a>
-                </li>
-                <li>
-                  <a href="#">Travel.</a>
-                </li>
-                <li>
-                  <a href="#">Photoshop</a>
-                </li>
-                <li>
-                  <a href="#">Corel Draw</a>
-                </li>
-                <li>
-                  <a href="#">JavaScript</a>
-                </li>
-              </ul>
-            </div>
-          </div> -->
-      <div id="id01" class="w3-modal">
+ </div>
+ </div>
+ <div class="col-md-4">
+ <!-- <div class="widget-sidebar sidebar-search">
+ <h5 class="sidebar-title">Search</h5>
+ <div class="sidebar-content">
+ <form>
+ <div class="input-group">
+ <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+ <span class="input-group-btn">
+ <button class="btn btn-secondary btn-search" type="button">
+ <span class="ion-android-search"></span>
+ </button>
+ </span>
+ </div>
+ </form>
+ </div>
+ </div> -->
+ <div class="widget-sidebar">
+ <h5 class="sidebar-title">Other Courses</h5>
+ <div class="sidebar-content">
+ <ul class="list-sidebar">
+ <li>
+ <a href="service1-focusfixing.html">Focus Mastery</a>
+ </li>
+ <li>
+ <a href="service2-emotionalsetback.html">Emotional Intelligence</a>
+ </li>
+ <li>
+ <a href="service3-goalsetting.html">Goal Setting</a>
+ </li>
+ <li>
+ <a href="service4-innovate.html">Innovate</a>
+ </li>
+ <li>
+ <a href="service5-socialskill.html">Social Intelligence</a>
+ </li>
+ <li>
+ <a href="service6-untie.html">Untie</a>
+ </li>
+ <li>
+ <a href="services7-behavioural_economics.html">Behavioural Economics</a>
+ </li>
+ <li>
+ <a href="service8-10xceostraining.html">10x ceos training</a>
+ </li>
+ </ul>
+ </div>
+ </div>
+ <div class="widget-sidebar">
+ <h5 class="sidebar-title">Archives</h5>
+ <div class="sidebar-content">
+ <ul class="list-sidebar">
+ <li>
+ 
+ <a href="https://www.linkedin.com/pulse/brain-series-anil-thomas-v/" target="blank">Brain Series</a>
+ </li>
+ <li>
+ 
+ <a href="https://www.linkedin.com/pulse/logical-mind-emotional-anil-thomas-v/" target="blank">Logical mind or Emotional mind</a>
+ </li>
+ <li>
+
+ <a href="https://www.linkedin.com/pulse/logical-mind-emotional-anil-thomas-v/" target="blank">Most rewarding experience for our brains</a>
+ </li>
+ <!-- <li>
+ <a href="#">Atque placeat maiores nam quo autem</a>
+ </li>
+ <li>
+ <a href="#">Nam quo autem exercitationem.</a>
+ </li>
+ </ul>
+ </div>
+ </div>
+ <!-- <div class="widget-sidebar widget-tags">
+ <h5 class="sidebar-title">Tags</h5>
+ <div class="sidebar-content">
+ <ul>
+ <li>
+ <a href="#">Web.</a>
+ </li>
+ <li>
+ <a href="#">Design.</a>
+ </li>
+ <li>
+ <a href="#">Travel.</a>
+ </li>
+ <li>
+ <a href="#">Photoshop</a>
+ </li>
+ <li>
+ <a href="#">Corel Draw</a>
+ </li>
+ <li>
+ <a href="#">JavaScript</a>
+ </li>
+ </ul>
+ </div>
+ </div> -->
+ </div>
+ </div>
+  <div id="id01" class="w3-modal">
     <div class="w3-modal-content w3-card-4">
      
       <div class="w3-container">
@@ -387,14 +406,9 @@
     </div>
   </div>
 </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--/ Section Blog-Single End /-->
+ </div>
+ </section>
+ <!--/ Section Blog-Single End /-->
 
  <!--/ Section Contact-Footer Star /-->
  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
@@ -404,7 +418,7 @@
  <div class="row">
  <div class="col-sm-12">
  <div class="copyright-box">
- <p class="copyright">&copy; Copyright <strong>Anil Thomas V</strong>. All Rights Reserved</p>
+<!--  <p class="copyright">&copy; Copyright <strong>Anil Thomas V</strong>. All Rights Reserved</p> -->
  <div class="credits">
  <!--
  All the links in the footer should remain intact.
@@ -412,7 +426,7 @@
  Licensing information: https://bootstrapmade.com/license/
  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
  -->
- Designed by <a href="#">George Stephen(Meantr)</a>
+ Designed by <a href="https://www.linkedin.com/in/geostephen">George Stephen(Meantr)</a>
  </div>
  </div>
  </div>
@@ -458,7 +472,7 @@
         });
       });
     </script>
-    <script>
+   <script>
 // Get the modal
 var modal = document.getElementById('id01');
 
