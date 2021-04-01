@@ -809,6 +809,7 @@ li.eduquali span {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+  height: 490px;
 }
 .service-box:hover {
   transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -875,6 +876,7 @@ li.eduquali span {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  height: 370px;
 }
 
 .work-box:hover img {
@@ -1293,6 +1295,7 @@ footer .credits a {
 
   .card-blog {
     margin-bottom: 3rem;
+    height: 500px;
   }
 
   .contact-mf .box-pl2 {
