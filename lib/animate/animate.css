@@ -3564,8 +3564,8 @@
 }
 
 .animated.infinite {
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: initial;
+  animation-iteration-count: initial;
 }
 
 .animated.delay-1s {

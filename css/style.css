@@ -163,6 +163,11 @@ a:hover {
   background-color: #0078ff;
   margin: 0 auto;
 }
+.line-mf-a {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+}
 
 /*--/ Title Left /--*/
 
@@ -403,8 +408,8 @@ a:hover {
 .navbar-b {
   transition: all 0.5s ease-in-out;
   background-color: transparent;
-  padding-top: 1.563rem;
-  padding-bottom: 1.563rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar-b.navbar-reduce {
@@ -476,8 +481,8 @@ a:hover {
 .navbar-b.navbar-reduce {
   transition: all 0.5s ease-in-out;
   background-color: #fff;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar-b.navbar-reduce .nav-link {
@@ -841,7 +846,10 @@ li.eduquali span {
 .service-box .s-description {
   color: #4e4e4e;
 }
-
+#animation {
+ animation-timing-function: ease-out;
+ animation: 3s
+}
 /*======================================
 //--//-->   COUNTER
 ======================================*/
@@ -1385,4 +1393,7 @@ footer .credits a {
 
 .about-text{
   font-weight: 320;
+}
+.interview {
+  width: 32px;
 }
