@@ -25,6 +25,15 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4RJ97DTXM8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4RJ97DTXM8');
+</script>
 </head>
 
 <body>
@@ -47,10 +56,10 @@
             <a class="nav-link js-scroll" href="index.html#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="index.html#service">Courses</a>
+            <a class="nav-link js-scroll" href="index.html#courses">Courses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="index.html#work">Work</a>
+            <a class="nav-link js-scroll" href="index.html#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="index.html#blog">Blog</a>
@@ -61,15 +70,7 @@
         </ul>
       </div>
     </div>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4RJ97DTXM8"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-
-      gtag('config', 'G-4RJ97DTXM8');
-    </script>
+    
   </nav>
   <!--/ Nav End /-->
 
@@ -85,7 +86,7 @@
               <a href="index.html">Home</a>
             </li>
             <li class="breadcrumb-item">
-              <a href="index.html#service">Courses</a>
+              <a href="index.html#courses">Courses</a>
             </li>
             <li class="breadcrumb-item active">Young Empowerment Club</li>
           </ol>
@@ -167,28 +168,28 @@
             <div class="sidebar-content">
               <ul class="list-sidebar">
                 <li>
-                  <a href="service1-focusfixing.html">Focus Mastery</a>
+                  <a href="focus-mastery.html">Focus Mastery</a>
                 </li>
                 <li>
-                  <a href="service2-emotionalsetback.html">Emotional Intelligence</a>
+                  <a href="emotional-intelligence.html">Emotional Intelligence</a>
                 </li>
                 <li>
-                  <a href="service3-goalsetting.html">Goal Setting</a>
+                  <a href="goal-setting.html">Goal Setting</a>
                 </li>
                 <li>
-                  <a href="service4-innovate.html">Innovate</a>
+                  <a href="innovate.html">Innovate</a>
                 </li>
                 <li>
-                  <a href="service5-socialskill.html">Social Intelligence</a>
+                  <a href="social-intelligence.html">Social Intelligence</a>
                 </li>
                 <li>
-                  <a href="service6-untie.html">Untie</a>
+                  <a href="untie.html">Untie</a>
                 </li>
                 <li>
-                  <a href="services7-behavioural_economics.html">Behavioural Economics</a>
+                  <a href="behavioural-economics.html">Behavioural Economics</a>
                 </li>
                 <li>
-                  <a href="service8-10xceostraining.html">10X CEO's Training</a>
+                  <a href="x-ceo's-training.html">10X CEO's Training</a>
                 </li>
               </ul>
             </div>
@@ -224,11 +225,15 @@
           <div class="col-sm-12">
             <div class="copyright-box">
               <p class="copyright">
-                2021 | <strong>Anil Thomas V</strong></p>
+ &copy;               Copyright <span id='fullYear'></span> | <strong>Anil Thomas V</strong>
+              </p>
+              <script>
+                document.getElementById("fullYear").innerHTML = new Date().getFullYear();
+              </script>
               <div class="credits">
-                Designed by <a href="https://www.linkedin.com/in/geostephen" target="_blank">George Stephen(Meantr)</a>
+                Designed by <a href="https://www.linkedin.com/in/geostephen" target="_blank">George Stephen (MEANTR
+                  SOFTWARE)</a>
               </div>
-            </div>
           </div>
         </div>
       </div>
